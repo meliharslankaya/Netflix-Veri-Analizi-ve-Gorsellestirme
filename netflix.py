@@ -8,7 +8,7 @@ sns.set(style="whitegrid")
 plt.style.use('seaborn-whitegrid')
 
 # Veri setini okuma
-file_path = "netflix_titles.csv"  # CSV dosyanızın yolu
+file_path = "netflix.csv"
 data = pd.read_csv(file_path)
 
 # İlk 5 satırı görüntüleme
