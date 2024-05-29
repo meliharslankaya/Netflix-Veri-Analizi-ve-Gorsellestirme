@@ -23,7 +23,7 @@ plt.title('İçerik Türlerine Göre Dağılım', fontsize=16)
 plt.ylabel('')
 plt.show()
 
-# 3. Histogram: Yayın tarihine göre içerik sayısı (daha az yıl)
+# Histogram: Yayın tarihine göre içerik sayısı (daha az yıl)
 plt.figure(figsize=(12, 7))
 data['release_year'] = data['release_year'].astype(int)
 recent_data = data[data['release_year'] >= 2000]  # 2000 yılından sonraki verileri al
@@ -35,7 +35,7 @@ plt.xticks(rotation=90, fontsize=12)
 plt.yticks(fontsize=12)
 plt.show()
 
-# 4. Isı Haritası (Choropleth Map): Ülkelere göre içerik sayısı
+# Isı Haritası (Choropleth Map): Ülkelere göre içerik sayısı
 # Ülke verilerini ayrıştırma ve sayma
 country_data = data['country'].dropna().str.split(', ', expand=True).stack().reset_index(level=1, drop=True)
 country_data.name = 'country'
