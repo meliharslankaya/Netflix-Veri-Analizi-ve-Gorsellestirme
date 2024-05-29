@@ -6,7 +6,7 @@ Bu proje, Netflix platformundaki film ve TV şovlarının veri analizi ve görse
 
 ### İçerik Türlerine Göre Dağılım (Pasta Grafik)
 
-![İçerik Türlerine Göre Dağılım](pasta_grafik.png)
+![İçerik Türlerine Göre Dağılım](graphics/Figure_1.png)
 
 - **Veri Kaynağı**: Netflix veri seti
 - **Kullanılan Kodlar**: 
