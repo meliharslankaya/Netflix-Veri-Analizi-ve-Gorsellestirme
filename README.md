@@ -1,6 +1,10 @@
 # Netflix Veri Analizi ve Görselleştirme
 
-Bu proje, Netflix platformundaki film ve TV şovlarının veri analizi ve görselleştirmesi üzerine yapılmıştır. Projede kullanılan veri seti, [Netflix Movies and TV Shows](https://www.kaggle.com/shivamb/netflix-shows) adlı Kaggle veri setinden alınmıştır.
+Bu proje, Netflix platformundaki film ve TV şovlarının veri analizi ve görselleştirmesi üzerine yapılmıştır. Projede kullanılan veri seti, [Netflix Movies and TV Shows] adlı Kaggle veri setinden alınmıştır.
+
+## Veri Kaynağı
+
+- [Netflix Movies and TV Shows](https://www.kaggle.com/shivamb/netflix-shows)
 
 ## Grafik Çıktıları
 
@@ -8,7 +12,6 @@ Bu proje, Netflix platformundaki film ve TV şovlarının veri analizi ve görse
 
 ![İçerik Türlerine Göre Dağılım](graphics/Figure_1.png)
 
-- **Veri Kaynağı**: Netflix veri seti
 - **Kullanılan Kodlar**: 
     ```python
     import pandas as pd
@@ -35,9 +38,8 @@ Bu proje, Netflix platformundaki film ve TV şovlarının veri analizi ve görse
 
 ### Yayın Tarihine Göre İçerik Sayısı (Histogram)
 
-![Yayın Tarihine Göre İçerik Sayısı](histogram.png)
+![Yayın Tarihine Göre İçerik Sayısı](graphics/Figure_2.png)
 
-- **Veri Kaynağı**: Netflix veri seti
 - **Kullanılan Kodlar**: 
     ```python
     import pandas as pd
@@ -67,9 +69,8 @@ Bu proje, Netflix platformundaki film ve TV şovlarının veri analizi ve görse
 
 ### Ülkelere Göre İçerik Sayısı (Isı Haritası)
 
-![Ülkelere Göre İçerik Sayısı](isi_haritasi.png)
+![Ülkelere Göre İçerik Sayısı](graphics/Figure_3.png)
 
-- **Veri Kaynağı**: Netflix veri seti
 - **Kullanılan Kodlar**: 
     ```python
     import pandas as pd
@@ -114,7 +115,3 @@ Bu proje, Netflix platformundaki film ve TV şovlarının veri analizi ve görse
     ax.set_axis_off()
     plt.show()
     ```
-
-## Veri Kaynağı
-
-- [Netflix Movies and TV Shows](https://www.kaggle.com/shivamb/netflix-shows)
