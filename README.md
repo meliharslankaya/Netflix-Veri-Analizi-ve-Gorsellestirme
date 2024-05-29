@@ -1,6 +1,6 @@
 # Netflix Veri Analizi ve Görselleştirme
 
-Bu proje, Netflix platformundaki film ve TV şovlarının veri analizi ve görselleştirmesi üzerine yapılmıştır. Projede kullanılan veri seti, [Netflix Movies and TV Shows] adlı Kaggle veri setinden alınmıştır.
+Bu proje, Netflix platformundaki film ve TV şovlarının veri analizi ve görselleştirmesi üzerine yapılmıştır. Projede kullanılan veri seti, Netflix Movies and TV Shows adlı Kaggle veri setinden alınmıştır.
 
 ## Veri Kaynağı
 
@@ -23,7 +23,7 @@ Bu proje, Netflix platformundaki film ve TV şovlarının veri analizi ve görse
     plt.style.use('seaborn-whitegrid')
 
     # Veri setini okuma
-    file_path = "netflix_titles.csv"  # CSV dosyanızın yolu
+    file_path = "netflix.csv"
     data = pd.read_csv(file_path)
 
     # Pasta Grafik: İçerik türlerine göre yüzdesel dağılım
@@ -51,7 +51,7 @@ Bu proje, Netflix platformundaki film ve TV şovlarının veri analizi ve görse
     plt.style.use('seaborn-whitegrid')
 
     # Veri setini okuma
-    file_path = "netflix_titles.csv"  # CSV dosyanızın yolu
+    file_path = "netflix.csv"
     data = pd.read_csv(file_path)
 
     # Histogram: Yayın tarihine göre içerik sayısı (daha az yıl)
@@ -83,7 +83,7 @@ Bu proje, Netflix platformundaki film ve TV şovlarının veri analizi ve görse
     plt.style.use('seaborn-whitegrid')
 
     # Veri setini okuma
-    file_path = "netflix_titles.csv"  # CSV dosyanızın yolu
+    file_path = "netflix.csv" 
     data = pd.read_csv(file_path)
 
     # Isı Haritası (Choropleth Map): Ülkelere göre içerik sayısı
